@@ -9,7 +9,7 @@ A full-stack event-management platform that lets organisers publish events, atte
 | **Participants** | REST endpoint streams participants; React renders them in a Syncfusion Grid with filtering, paging & export to Excel. |
 | **Categories** | Enum‑backed (Tech, Media, Sports …) and instantly filterable on both API and UI. |
 | **API‑first** | Versioned controllers, DTO mapping with AutoMapper, live Swagger / OpenAPI docs. |
-| **Dev & Ops** | Docker‑compose for local spin‑up (API + MySQL + pgAdmin). GitHub Actions CI runs tests & publishes Docker images. |
+
 
 ---
 
@@ -58,7 +58,6 @@ dotnet run --project SmartEvent.API
 - **Frontend**: React 18, React Router DOM, Syncfusion UI, Axios
 - **Auth**: ASP.NET Identity, JWT (stored client‑side, to be migrated to http‑only cookies)
 - **Database**: MySQL 8
-- **CI/CD**: GitHub Actions
 
 ---
 
